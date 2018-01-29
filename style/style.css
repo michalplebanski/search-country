@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.search {
+	height: 23vh;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.search h2 {
+	font-size: 40px;
+}
+
+.search button, .search input {
+	font-size: 20px;
+}
+
+.search button {
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.search button:hover {
+	opacity: 0.8;
+}
+
+.results {
+	width: 700px;
+	margin: 0 auto;
+	min-height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	font-weight: bold;
+}
+
+.response {
+	margin: 70px;
+}
+
+.title-country{
+	padding: 20px;
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #160bb7;
+}
+
+.title-info {
+	min-width: 700px;
+	max-width: 900px;
+	padding: 4px;
+	text-align: left;
+	font-size: 25px;
+	background-color: blue;
+	color: #fff;
+}
+
+.info {
+	display: flex;
+}
+
+.info ul {
+	padding: 10px;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	list-style-type: none;
+}
+
+.info ul li {
+	padding: 10px;
+}
+
+.list-title {
+	min-width: 200px;
+	background-color: #ffaa00;
+}
+
+.list-value {
+	min-width: 500px;
+	background-color: #ffe500;
+	color: #160bb7;
+}
+
+footer {
+	height: 50px;
+	display: flex;
+	background-color: #000;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
